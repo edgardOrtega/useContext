@@ -10,7 +10,7 @@ export default MyContext
 ```
 *asi se crea un Context*
 
-2. Proveer el Context en el app.jsx => Se importa el contexto creado a App.jsx y se envuelve la aplicacion en el componente Provider
+2. *Proveer el Context en el app.jsx => Se importa el contexto creado a App.jsx y se envuelve la aplicacion en el componente Provider*
 
 ### ejemplo
 
@@ -30,7 +30,7 @@ import MyContext from "../Context/MyContext";
  }
  export default App
  ```
- 3. proveer el Contexto creando estados con useState
+ 3. *proveer el Contexto creando estados con useState y agregarle esos datos a sharedState para darle valor al Provider por el atributo value*
 
 ```
 import MyContext from "./my_context"
@@ -52,7 +52,7 @@ import MyContext from "./my_context"
 
 ```
 
-4. Consumir un Contexto
+4. *Consumir un Contexto*
 
 ```
 /* Componente1.jsx */
@@ -68,5 +68,3 @@ import MyContext from "./my_context"
  export default Component1
  ```
 
-
-# useContext
