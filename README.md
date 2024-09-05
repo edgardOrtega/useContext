@@ -14,7 +14,7 @@ export default MyContext
 
 ### ejemplo
 
-```
+```js
 import MyContext from "../Context/MyContext";
  import Component1 from "./Component1"
  import Component2 from "./Component2"
@@ -32,7 +32,7 @@ import MyContext from "../Context/MyContext";
  ```
  3. ***proveer el Contexto creando estados con useState y agregarle esos datos a sharedState para darle valor al Provider por el atributo value***
 
-```
+```js
 import MyContext from "./my_context"
  import Component1 from "./Component1"
  import Component2 from "./Component2"
@@ -54,7 +54,7 @@ import MyContext from "./my_context"
 
 4. ***Consumir un Contexto***
 
-```
+```js
 /* Componente1.jsx */
  import { useContext } from "react"
  import MyContext from "./my_context"
